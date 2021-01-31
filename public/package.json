@@ -1,0 +1,24 @@
+{
+  "name": "unitedtoact",
+  "version": "1.0.0",
+  "description": "Web app to Find events, workshops, marches, protests and fundraisers to be involved in the local community",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ananya-Trivedi/HackViolet.git"
+  },
+  "keywords": [
+    "Protests",
+    "Support",
+    "RIghts"
+  ],
+  "author": "Yabo Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ananya-Trivedi/HackViolet/issues"
+  },
+  "homepage": "https://github.com/Ananya-Trivedi/HackViolet#readme"
+}
