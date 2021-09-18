@@ -1,14 +1,20 @@
 import React from "react";
+
+// Google Maps APIs
 import {
   GoogleMap,
   useLoadScript,
   Marker,
   InfoWindow,
 } from "@react-google-maps/api";
+
+// Autocomplete feature for search
 import usePlacesAutocomplete, {
   getGeocode,
   getLatLng,
 } from "use-places-autocomplete";
+
+// Display the search results
 import {
   Combobox,
   ComboboxInput,
@@ -16,8 +22,9 @@ import {
   ComboboxList,
   ComboboxOption,
 } from "@reach/combobox";
-import { formatRelative } from "date-fns";
 
+// Date formatting
+import { formatRelative } from "date-fns";
 import "@reach/combobox/styles.css";
 import mapStyles from "./mapStyles";
 

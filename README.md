@@ -14,8 +14,16 @@ With United To Act(UTA), users can
 -Add markers onto the Google Map if you're attending a movement for an impactful cause, or an informative session. -Let others join you too!
 -View markers to navigate to locations you're willing to head to with the purpose of supporting an important cause, a charity event, a sporting event or even a reading club! 
 
-## How I built it
-React app.
+## About the technologies
+What are React Hooks?
+Reach Hook APIs essentially act as an alternative way of writing class based components, state management and lifecycle methods. 
+
+Originally, for instance, we could work with local states, effect and context only with classes. However, we cna now employ useState, useEffect and useContext. 
+
+It helps us write cleaner and more concise code! However, there's a couple things we need to remember:
+- NEVER call Hooks from withing a loop, condition or a recursive function.
+- Only call them from React functional components.
+- Hooks can call other Hooks.
 
 ## Accomplishments that I'm proud of
 Successfully integrated the Google APIs.
