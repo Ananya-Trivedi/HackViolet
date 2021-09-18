@@ -16,4 +16,4 @@ With United To Act(UTA), users can
 React app.
 
 ## Accomplishments that I'm proud of
-Successfully ntegrated the Google APIs.
+Successfully integrated the Google APIs.
