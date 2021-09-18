@@ -1,5 +1,3 @@
-## Demo Video
-https://youtu.be/lZ5TgKXW9Dw 
 ## Inspiration
 Our inspiration for this project are the many protests that have happened around this country, and after surveying students, we found that it isn't easy to find how to support causes, and that they would support their causes and attend protests a lot more if it was easier.
 ## What it does
@@ -11,11 +9,5 @@ With United To Act(UTA), users can
 
 ## How I built it
 We built it using React app.
-## Challenges I ran into
-The biggest challenge we ran into was probably lack of time, and other things happening in our lives.
 ## Accomplishments that I'm proud of
-We have the APIs working and users can pinpoint locations
-## What I learned
-We all learned a couple new technologies, and developed out skills in others.
-## What's next for United To Act
-We are looking to add some new features, such as groups and posting, enhancing the users experience with the project.
+Successfully ntegrated the Google APIs.
