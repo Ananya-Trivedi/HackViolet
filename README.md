@@ -1,4 +1,5 @@
 ## Project Documentation
+The following Notion link documents the project proposal, technologies used and features incorporated (including screenshots of the live app).
 https://palm-colossus-544.notion.site/HackViolet-001962c6e3c14999bd2ad3e7c9d5d408
 
 ## Inspiration
