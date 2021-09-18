@@ -1,3 +1,4 @@
+// snippet copied from snazzy maps
 export default [
   {
       "featureType": "landscape",

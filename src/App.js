@@ -23,11 +23,12 @@ import {
   ComboboxOption,
 } from "@reach/combobox";
 
-// Date formatting
-import { formatRelative } from "date-fns";
+import { formatRelative } from "date-fns"; // Date formatting
 import "@reach/combobox/styles.css";
-import mapStyles from "./mapStyles";
+import mapStyles from "./mapStyles"; // Contains the snazzy map formatting
 
+// libraries is made a constant to avoid
+//     redundant rerenders
 const libraries = ["places"];
 const mapContainerStyle = {
   height: "100vh",
@@ -35,19 +36,25 @@ const mapContainerStyle = {
 };
 const options = {
   styles: mapStyles,
-  disableDefaultUI: true,
+  disableDefaultUI: true, // custom add UI later
   fullscreenControl: false,
   mapTypeControl: true
 };
+
+// default set to toronto
 const center = {
   lat: 43.6532,
   lng: -79.3832,
 };
 
 export default function App() {
-  const { isLoaded, loadError } = useLoadScript({
+  const {
+    isLoaded,
+    loadError
+  } = useLoadScript({
+    // This API key has been deprecated for security purposes
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
-    libraries,
+    libraries, // see note on line 31
   });
   const [markers, setMarkers] = React.useState([]);
 
@@ -79,27 +86,25 @@ export default function App() {
   if (!isLoaded) return "Loading...";
 
   return (
+    // adds the heading to the top left corner
     <div>
       <h1> 
         UTA{" "}
         <span role="img" aria-label="yellow heart">
          💛
         </span>
-      </h1>
-
-      
+      </h1>      
       <Search panTo={panTo} />
       <Locate panTo={panTo} />
-
       <GoogleMap
         id="map"
+        // mapContainerStyle is a constant to avoid rerenders
         mapContainerStyle={mapContainerStyle}
         zoom={8}
         center={center}
         options={options}
         onClick={onMapClick}
-        onLoad={onMapLoad} // when the use clicks, then set marker
-        
+        onLoad={onMapLoad} // when the use clicks, then set marker 
       >
         {markers.map((marker) => (
           <Marker
