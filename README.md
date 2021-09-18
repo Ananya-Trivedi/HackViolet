@@ -2,6 +2,8 @@
 The following Notion link documents the project proposal, technologies used and features incorporated (including screenshots of the live app).
 https://palm-colossus-544.notion.site/HackViolet-001962c6e3c14999bd2ad3e7c9d5d408
 
+This app hasn't been hosted on a live server as of now; however the Notion documentation should give an overview of the functionalities.
+
 ## Inspiration
 Our inspiration for this project are the many protests that have happened around this country, and after surveying students, we found that it isn't easy to find how to support causes, and that they would support their causes and attend protests a lot more if it was easier.
 
